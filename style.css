@@ -27,32 +27,33 @@
   
   body {
     height: 100vh;
-    width: 1440px;
-    padding: 30rem;
+    min-width: 375px;
+    max-width: 1440px;
+    padding: 30.0rem;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     background-color: var(--color-slate-500);
+    gap: 0.25rem;
   }
   
   main {
-    width: 100%;
     display: inherit;
-    flex-direction: inherit;
-    justify-content: center;
-    align-items: center;
+    flex-flow: inherit;
+    justify-content: inherit;
+    align-items: inherit;
     padding: 1.0rem;
     background-color: var(--color-main-background);
     gap: 1.0rem;
   }
 
-  main, img, h1, h2 {
-    width: 99%;
-  }
-
   main, img {
     border-radius: var(--border-edge);
+  }
+
+  img {
+    object-fit: cover;
   }
 
   h1 {
@@ -60,10 +61,25 @@
     padding-top: 0.5rem;
   }
 
-  h2 {
-    padding-bottom: 1.5rem;
-  }
-
   h1, h2 {
     color: var(--color-slate-900);
+  }
+
+  .attribution {
+    display: inherit;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    gap: inherit;
+  }
+
+  .attribution a {
+    color: hsl(228, 100%, 18%); 
+  }
+
+  main, .attribution {
+    min-width: inherit;
+    max-width: inherit;
   }
