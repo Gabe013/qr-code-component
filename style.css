@@ -56,20 +56,15 @@
   }
 
   .attribution {
-    display: inherit;
-    flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     gap: inherit;
   }
 
   .attribution a {
     color: hsl(228, 100%, 18%); 
-  }
-
-  main, .attribution {
-    min-width: inherit;
-    max-width: inherit;
   }
