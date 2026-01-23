@@ -30,15 +30,16 @@
   }
   
   main {
-    margin-top: 5%;
+    height: fit-content;
+    margin-top: 2%;
     width: fit-content;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 1.0rem;
+    padding: 0.8rem 1rem 0.5rem;
     background-color: var(--color-main-background);
-    gap: 1.0rem;
+    gap: 0.5rem;
   }
 
   main, img {
