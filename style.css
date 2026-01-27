@@ -41,7 +41,6 @@
   }
   
   main {
-
     width: fit-content;
     display: flex;
     flex-flow: column;
