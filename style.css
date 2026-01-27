@@ -34,9 +34,10 @@
     margin: 0 auto;
     display: flex;
     flex-flow: column;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;     /* Centers vertically */
-    height: 100vh; /* ensures parent container's children are centered on all screens and devices by taking 100% of the viewport (made by Gemini via Google SRE) */
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; /* ensures parent container's children are centered on all screens and devices
+     by taking 100% of the viewport (made by Gemini via Google SRE) */
   }
   
   main {
