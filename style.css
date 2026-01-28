@@ -1,85 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
-    --color-main-background: hsl(0, 0%, 100%);
-    --color-slate-300: hsl(212, 45%, 89%);
-    --color-slate-500: hsl(216, 15%, 48%);
-    --color-slate-900: hsl(218, 44%, 22%);
-    --border-edge: 1.0rem;
-  }
-  
-  * {
-    margin: 0 auto;
-    padding: 0;
-    font: inherit;
-    line-height: inherit;
-    box-sizing: border-box;
-  }
+  --color-main-background: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+  --border-edge: 1rem;
+}
 
-  
-  html {
-    font-family: Outfit;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.5rem;
-    text-align: center;
-  }
-  
-  body {
-    background-color: var(--color-slate-300);
-    width: fit-content;
-    max-width: 1444px;
-    min-width: 375px;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column;
-    justify-content: center; 
-    align-items: center;
-    height: 100vh; /* ensures parent container's children are centered on all screens and devices
+* {
+  margin: 0 auto;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+body {
+  background-color: var(--color-slate-300);
+  width: fit-content;
+  max-width: 1444px;
+  min-width: 375px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ensures parent container's children are centered on all screens and devices
      by taking 100% of the viewport (made by Gemini via Google SRE) */
-  }
-  
-  main {
-    width: fit-content;
-    display: flex;
-    flex-flow: column;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.8rem 1rem 0.5rem;
-    padding: 0.8rem 1rem 0.5rem;
-    background-color: var(--color-main-background);
-    gap: 0.5rem;
-    gap: 0.5rem;
-  }
+}
 
-  main, img {
-    border-radius: var(--border-edge);
-    width: 50%;
-    max-width: fit-content;
-    height: auto;
-  }
+main {
+  display: inherit;
+  flex-flow: column;
+  padding: 0.8rem 1rem 0.5rem;
+  background-color: var(--color-main-background);
+  gap: 0.5rem;
+}
 
-  h1 {
-    font-weight: 700;
-    padding-top: 0.5rem;
-  }
+main,
+img {
+  border-radius: var(--border-edge);
+  width: 50%;
+  max-width: fit-content;
+  height: auto;
+}
 
-  h1, h2 {
-    color: var(--color-slate-900);
-  }
+h1 {
+  font-weight: 700;
+  padding-top: 0.5rem;
+}
 
-  .attribution {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    font-weight: bold;
-    gap: inherit;
-  }
+h1,
+h2 {
+  color: var(--color-slate-900);
+}
 
-  .attribution a {
-    color: hsl(228, 100%, 18%); 
-  }
+.attribution {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.attribution a {
+  color: hsl(228, 100%, 18%);
+}

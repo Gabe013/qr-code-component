@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,16 +18,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 Used pure HTML and CSS to build a QR code component based on the design provided in the challenge.
-The CSS technique used is Flexbox to center and align the elements on the page without any particular responsivity-related CSS.
+The CSS technique used is Flexbox to center and align the elements on the page without any particular responsive design-related CSS.
 
 ### Screenshot
 
 ![QR Code Component for Desktop by Gabriel Mesaros](/images/screenshot-desktop.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,7 +36,7 @@ The CSS technique used is Flexbox to center and align the elements on the page w
 
 I figured out that I just needed to add `vh100` as the value of the `height`declaration in the `body` selector to achieve element centering on the page. _(Thanks to Google Gemini SRE AI tool window/field)_ 
 
-** Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. **
+
 
 To see how you can add code snippets, see below:
 
