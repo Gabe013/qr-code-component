@@ -38,19 +38,26 @@ The CSS technique used is Flexbox to center and align the elements on the page w
 
 ### What I learned
 
-I figured out that I just needed to add `vh100` as the value of the `height`declaration in the `body` selector to achieve element centering on the page. _(Thanks to Google Gemini SRE AI tool window/field)
+I figured out that I just needed to add a certain `"vhxyz"` as the value of the `height`property in the `body` selector to achieve element centering on the page. _(Thanks to Google Gemini SRE AI tool response)_
+In this case, I set the relevant selector's `height` declaration to `90vh`.
 
 Code of the respective selector:
+
 ```css
-main {
-  display: inherit;
+body {
+  background-color: var(--color-slate-300);
+  width: fit-content;
+  max-width: 1444px;
+  min-width: 375px;
+  margin: 0 auto;
+  display: flex;
   flex-flow: column;
-  padding: 0.8rem 1rem 0.5rem;
-  background-color: var(--color-main-background);
-  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* ensures parent container's children are centered on all screens and devices by taking 90% of the viewport (made by Gemini via Google SRE at suggested 100%, but I decreased it to 80vh to push the `main` container up a bit) */
 }
 ```
-I also understood that it was not necessary to turn all elements into Flexbox containers via their respective CSS declarations as I did initially.
 
 ### Continued development
 
