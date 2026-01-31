@@ -55,7 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  /* ensures parent container's children are centered on all screens and devices by taking 90% of the viewport (made by Gemini via Google SRE at suggested 100%, but I decreased it to 80vh to push the `main` container up a bit) */
+  /* ensures parent container's children are centered on all screens and devices by taking 90% of the viewport (made by Gemini via Google SRE at suggested 100%, but I decreased it to 90vh to push the `main` container up a bit) */
 }
 ```
 
